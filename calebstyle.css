@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;900&display=swap');
+
+@font-face {
+    font-family: 'gorditabold';
+    src: url('gordita_bold-webfont.woff2') format('woff2'),
+         url('gordita_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gorditamedium';
+    src: url('gordita_medium-webfont.woff2') format('woff2'),
+         url('gordita_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gorditaregular';
+    src: url('gordita_regular-webfont.woff2') format('woff2'),
+         url('gordita_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'konnectlight';
+    src: url('konnectlight-webfont.woff2') format('woff2'),
+         url('konnectlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'konnectmedium';
+    src: url('konnectmedium-webfont.woff2') format('woff2'),
+         url('konnectmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    border-spacing: border-box;
+}
+
+html{
+    margin: 0;
+    border-spacing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Inter" !important;
+    padding-top: 60px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gitcontent{
+    padding-bottom: 150px;
+    background: url('background.svg');
+    padding-right: 8.33%;
+    padding-left: 8.33%;
+}
+
+.row1git{
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 75px;
+}
+
+.logo{
+    width: 183.36px;
+    height: 50px;
+}
+
+.cancelbtn{
+    height: 40px;
+    width: 40px;
+    margin-top: 5.2px;
+    float: right;
+}
+
+.row2git{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row2git .r2c1{
+    width: 50%;
+}
+
+.row2git .r2c2{
+    width: 50%;
+}
+
+.githeader{
+    max-width: 487px;
+    font-weight: 400;
+font-size: 40px;
+line-height: 57px;
+letter-spacing: -0.0021em;
+color: #272727;
+padding-bottom: 60px;
+font-family: "gorditaregular";
+font-weight: 400;
+letter-spacing: -0.0021em;
+
+}
+
+.gitcontactus{
+    font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.01em;
+color: #171717;
+padding-bottom: 15px;
+}
+
+.gitdecorated{
+    font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+text-decoration-line: underline;
+padding-bottom: 15px;
+color: #3B13E5;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.gitinput{
+    width: 46.83%;
+    height: 56px;
+    padding: 14px 16px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.gittextarea{
+    width: 100%;
+    height: 168px;
+    padding-top: 16px;
+    margin-bottom: 30px;
+}
+
+.r2c2{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gitform{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.gitsubmitbutton{
+    position: relative;
+    top: 45px;
+    left: calc(100% - 180px);
+    right: 0px;
+    justify-content: center;
+    align-items: center;
+    max-width: 180px;
+    height: 60px;
+    border: 0.7px solid #3B13E5;
+    font-weight: 400;
+    background: none;
+    font-size: 18px;
+    line-height: 23.49px;
+    color: #3B13E5;
+    font-family: 'konnectmedium';
+}
+
+.gitbeneath{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13.31px;
+    color: rgba(38, 38, 38, 0.8);
+    width: 100%;
+}
+
+.gitbeneath .highlighted{
+    text-decoration: underline;
+    color: #171717;
+}
+
+.directioncontrol{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+
+    .gitcontent{
+        padding-bottom: 59px;
+        background: #fff;
+        padding-right: 4.27%;
+        padding-left: 4.27%;
+    }
+
+    .logo{
+        width: 132.38px;
+        height: 36px;
+    }
+    .cancelbtn{
+    width: 24px;
+    height: 24px;
+    }
+
+    .row1git{
+        padding-bottom: 52px;
+    }
+
+    .githeader{
+        font-weight: 400;
+font-size: 26px;
+line-height: 37px;
+letter-spacing: -0.0021em;
+padding-bottom: 24px;
+    }
+
+    .row2git{
+        flex-direction: column;
+    }
+
+    .row2git .r2c1{
+        width: 100%;
+    }
+
+    .row2git .r2c2{
+        width: 100%;
+        padding-top: 24px;
+
+    }
+
+    .gitcontactus{
+        font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.01em;
+    }
+
+    .gitdecorated{
+        font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+padding-bottom: 12px;
+    }
+
+    .gitinput{
+        width: 100%;
+        margin-bottom: 24px;
+        padding: 10px 16px;
+    }
+
+    .directioncontrol{
+        flex-direction: column-reverse;
+    }
+    .gitsubmitbutton{
+        background: #3B13E5;
+border-radius: 8px;
+max-width: 100%;
+width: 100%;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #fff;
+margin-bottom: 32px;
+position: static;
+    }
+
+    .gitbeneath{
+        font-weight: 400;
+font-size: 8px;
+line-height: 10px;
+    }
+}
